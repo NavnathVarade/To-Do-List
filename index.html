@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header" id="myDIV">
+            <h1>To-Do List</h1>
+            <div class="input-container">
+                <input type="text" id="myInput" placeholder="Add a new task...">
+                <button onclick="newElement()" class="addBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <ul id="myUL">
+            <li>
+                <div class="val">Make a coffee</div>
+            </li>
+            <li>
+                <div class="val">Buy grocery</div>
+            </li>
+            <li>
+                <div class="val">Read a book</div>
+            </li>
+            <li>
+                <div class="val">Watch a movie</div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/_navnathvarade/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/VaradeNavnath?t=UQp52IuAu8q18bZ2z7aJDQ&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/NavnathVarade" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:connectwith.navnath@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <p>Made with ❤️ by Navnath</p>
+        </div>
+    </footer>
+    <button class="toggle-dark-mode" onclick="toggleDarkMode()"><i class="fas fa-moon"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
+
