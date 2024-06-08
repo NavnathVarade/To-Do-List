@@ -264,8 +264,7 @@ body.dark-mode .editBtn {
 
 footer {
     text-align: center;
-    padding: 20px 0;
-    background: #f0f2f5;
+    /* padding: 20px 0; */
     color: #333;
     width: 100%;
     position: absolute;
@@ -274,7 +273,7 @@ footer {
 }
 
 body.dark-mode footer {
-    background: #1c1c1e;
+    /* background: #1c1c1e; */
     color: #e5e5e5;
 }
 
@@ -302,10 +301,30 @@ body.dark-mode .social-links a:hover {
     color: #8bc34a;
 }
 
+
 @media (max-width: 600px) {
     .container {
         width: 90%;
         padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 12px 12px;
+    }
+
+    input, .addBtn, .editBtn {
+        height: 42px;
+    }
+
+    .toggle-dark-mode {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
     }
 
     footer {
